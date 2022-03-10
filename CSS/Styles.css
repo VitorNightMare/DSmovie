@@ -3,8 +3,26 @@
 
 * {
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
-h1{
-    color: rgb(161, 40, 40)
+html, body {
+background-color: #ddd;
+}
+
+header{
+    background-color: #4D41C0;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*o q eu quiser*/
+a, a:hover {
+    text-decoration: none;
+    color: unset;
 }

@@ -3,6 +3,7 @@
 :root{
     --bg-cinza: #ddd;
     --Color-primary: #4D41C0;
+    --text-gray: #4a4a4a;
     --branco: #fff;
 }
 
@@ -27,7 +28,7 @@ header{
     align-items: center;
 }
 
-img{
+nav img{
     width: 24px;
 height: 30px;
 }
@@ -62,4 +63,46 @@ a, a:hover {
 
 .dsmovie-contact-container img{
     margin-right: 10px;
+}
+
+#dsmovie-card-list{
+    padding: 40px 0;
+}
+
+.dsmovie-card{
+    width: 360px;
+    background-color: var(--branco);
+    border-radius: 8px;
+}
+
+.dsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.dsmovie-card-description {
+    padding: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmovie-card-description h3 {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.dsmovie-btn, .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--Color-primary);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
